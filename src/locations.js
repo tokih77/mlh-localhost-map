@@ -5,19 +5,19 @@ const options = {
   provider: "google",
   httpAdapter: "https",
   apiKey: process.env.GOOGLE_API_KEY,
-  sensor: true
+  sensor: true,
 };
 
 const geocoder = NodeGeocoder(options);
 
-const getLocations = async function(addresses) {
+const getLocations = async function (addresses) {
   try {
     const locations = await geocoder
       .batchGeocode(addresses)
-      .filter(({ error }) => !error)
+      .filter(({ value }) => value && !!value.length)
       .map(({ error, value: [result, ...results] }) => ({
         lat: result.latitude,
-        lng: result.longitude
+        lng: result.longitude,
       }));
     return locations;
   } catch (error) {
@@ -26,5 +26,5 @@ const getLocations = async function(addresses) {
 };
 
 module.exports = {
-  getLocations
+  getLocations,
 };
