@@ -1,6 +1,15 @@
 New York City, USA
-Tianjin, CHINA
+Bronx, USA
+New York City, USA
+New Milford, NJ USA
 Boston, USA
+New York City, USA
+Alexandria, Egypt
+Staten Island, USA
+Boston, USA
+Georgetown, Guyana 
+Boston, USA
+New York City, USA
 Flushing, Queens, New York City, USA
 Boston, USA
 Queens
@@ -10,3 +19,5 @@ Staten Island, USA
 Boston, USA
 Georgetown, Guyana 
 Boston, USA
+Astoria, USA
+Tianjin, CHINA
