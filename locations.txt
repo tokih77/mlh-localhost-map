@@ -1,7 +1,8 @@
 New York City, USA
 Tianjin, CHINA
 Boston, USA
-Georgetown, Guyana 
+Flushing, Queens, New York City, USA
+Boston, USA
 Queens
 Boston, USA
 Alexandria, Egypt
@@ -9,4 +10,3 @@ Staten Island, USA
 Boston, USA
 Georgetown, Guyana 
 Boston, USA
-
